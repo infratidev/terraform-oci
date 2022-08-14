@@ -7,7 +7,7 @@
 
 ##### Estrutura provisionada
 
-![Estrutura](../images/01-1xStdA1Flex-CloudInit.png)
+![Estrutura](../images/02-2xStdA1Flex-CloudInit.png)
 
 ##### Requirements
 
