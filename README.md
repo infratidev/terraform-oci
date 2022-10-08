@@ -3,11 +3,11 @@
 ### Usando terraform OCI
 
 ### Contents 
-  - [01-1xStdA1Flex-CloudInit](01-1xStdA1Flex-CloudInit/README.md)
-  - [02-2xStdA1Flex-CloudInit](02-2xStdA1Flex-CloudInit/README.md)
-  - [03-1xStdA1Flex-CloudInit-Bastion](03-1xStdA1Flex-CloudInit-Bastion/README.md)
-  - [04-2xStdA1Flex-CloudInit-Bastion](04-2xStdA1Flex-CloudInit-Bastion/README.md)
-  - [05-2xStdA1Flex-CloudInit-Bastion-ALB](05-2xStdA1Flex-CloudInit-Bastion-ALB/README.md)
+  - [01-1xStdA1Flex-CloudInit](01-1xStdA1Flex-CloudInit/)
+  - [02-2xStdA1Flex-CloudInit](02-2xStdA1Flex-CloudInit/)
+  - [03-1xStdA1Flex-CloudInit-Bastion](03-1xStdA1Flex-CloudInit-Bastion/)
+  - [04-2xStdA1Flex-CloudInit-Bastion](04-2xStdA1Flex-CloudInit-Bastion/)
+  - [05-2xStdA1Flex-CloudInit-Bastion-ALB](05-2xStdA1Flex-CloudInit-Bastion-ALB/)
 
 <br>
 
