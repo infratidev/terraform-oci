@@ -1,16 +1,17 @@
 [![Blog](https://img.shields.io/website?down_color=blue&down_message=infrati.dev&label=Blog&logo=ghost&logoColor=green&style=for-the-badge&up_color=blue&up_message=infrati.dev&url=https%3A%2F%2Finfrati.dev)](https://infrati.dev)
 
 ## OCI
-##### Provisionado 2 x (VM.Standard.A1.Flex 2 OCPUs 12GB RAM) em subnet privada utilizando bastion gerenciado da OCI para acessar a instância e instalar um servidor web utilizando provisioner `remote-exec`
-##### Nesse exemplo utilizaremos o meta-argument `count` do terraform para criar as duas instâncias iguais.
 
-##### Local state files
+#### Provisionado 2 x (VM.Standard.A1.Flex 2 OCPUs 12GB RAM) em subnet privada utilizando bastion gerenciado da OCI para acessar a instância e instalar um servidor web utilizando provisioner `remote-exec`
+#### Nesse exemplo utilizaremos o meta-argument `count` do terraform para criar as duas instâncias iguais.
 
-##### Estrutura provisionada
+#### Local state files
+
+#### Estrutura provisionada
 
 ![Estrutura](../images/04-2xStdA1Flex-CloudInit-Bastion.png)
 
-##### Requirements
+#### Requirements
 
 * Terraform instalado, nesse caso utilizado v1.2.6
 * Credenciais de acesso já criadas no OCI com as permissões necessárias para acesso ao compartimento.
@@ -39,22 +40,22 @@ vm_name          = "labinfrati"
 tags             = { Project = "labinfrati" }
 ```
 
-##### Arquivos terraform (Terraform irá processar todos os arquivos .tf)
+#### Arquivos terraform (Terraform irá processar todos os arquivos .tf)
 
-##### Inicializando o diretório, baixando e instalando o provider da oci
+#### Inicializando o diretório, baixando e instalando o provider da oci
 `terraform init`
 *Terraform has been successfully initialized!*
 
-##### Acertar identação do terraform
+#### Acertar identação do terraform
 `terraform fmt`
 
-##### Validando configuração
+#### Validando configuração
 `terraform validate`
 
-##### Plano de configuração
+#### Plano de configuração
 `terraform plan`
 
-##### Aplicando plano
+#### Aplicando plano
 `terraform apply`
 
 <br>

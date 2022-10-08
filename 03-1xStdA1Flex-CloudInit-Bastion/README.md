@@ -1,15 +1,16 @@
 [![Blog](https://img.shields.io/website?down_color=blue&down_message=infrati.dev&label=Blog&logo=ghost&logoColor=green&style=for-the-badge&up_color=blue&up_message=infrati.dev&url=https%3A%2F%2Finfrati.dev)](https://infrati.dev)
 
 ## OCI
-##### Provisionado 1 x (VM.Standard.A1.Flex 4 OCPUs 24GB RAM) em subnet privada utilizando bastion gerenciado da OCI para acessar a instância e instalar um servidor web utilizando provisioner `remote-exec`
 
-##### Local state files
+#### Provisionado 1 x (VM.Standard.A1.Flex 4 OCPUs 24GB RAM) em subnet privada utilizando bastion gerenciado da OCI para acessar a instância e instalar um servidor web utilizando provisioner `remote-exec`
 
-##### Estrutura provisionada
+#### Local state files
+
+#### Estrutura provisionada
 
 ![Estrutura](../images/03-1xStdA1Flex-CloudInit-Bastion.png)
 
-##### Requirements
+#### Requirements
 
 * Terraform instalado, nesse caso utilizado v1.2.6
 * Credenciais de acesso já criadas no OCI com as permissões necessárias para acesso ao compartimento.
@@ -38,22 +39,22 @@ vm_name          = "labinfrati"
 tags             = { Project = "labinfrati" }
 ```
 
-##### Arquivos terraform (Terraform irá processar todos os arquivos .tf)
+#### Arquivos terraform (Terraform irá processar todos os arquivos .tf)
 
-##### Inicializando o diretório, baixando e instalando o provider da oci
+#### Inicializando o diretório, baixando e instalando o provider da oci
 `terraform init`
 *Terraform has been successfully initialized!*
 
-##### Acertar identação do terraform
+#### Acertar identação do terraform
 `terraform fmt`
 
-##### Validando configuração
+#### Validando configuração
 `terraform validate`
 
-##### Plano de configuração
+#### Plano de configuração
 `terraform plan`
 
-##### Aplicando plano
+#### Aplicando plano
 `terraform apply`
 
 <br>
